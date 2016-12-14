@@ -38,6 +38,5 @@ namespace ModernWebStore.Domain.Entities
             //Reserve the product
             this.Product.UpdateQuantityOnHand(this.Product.QuantityOnHand - quantity);
         }
-
     }
 }
