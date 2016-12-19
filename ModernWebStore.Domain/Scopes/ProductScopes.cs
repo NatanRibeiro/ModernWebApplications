@@ -1,10 +1,5 @@
 ﻿using ModernWebStore.Domain.Entities;
 using ModernWebStore.SharedKernel.Validation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ModernWebStore.Domain.Scopes
 {
@@ -40,12 +35,12 @@ namespace ModernWebStore.Domain.Scopes
             );
         }
 
-        public static bool UpdatePriceScopeIsValid(this Product, decimal price)
+        public static bool UpdatePriceScopeIsValid(this Product product, decimal price)
         {
             return AssertionConcern.IsValid
             (
-                AssertionConcern.AssertIsGreaterThan(price, 0, "The price should be grater than zero");
-            )
+                AssertionConcern.AssertIsGreaterThan(price, 0, "The price should be grater than zero!")
+            );
         }
     }
 }
