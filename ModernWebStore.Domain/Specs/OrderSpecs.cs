@@ -21,5 +21,8 @@ namespace ModernWebStore.Domain.Specs
         
         public static Expression<Func<Order, bool>> GetOrdersDetails(int id, string email)
         => x => x.User.Id == id && x.User.Email == email;
+
+        public static Expression<Func<Order, bool>> GetOrdersFromUser(string email)
+        => x => x.User.Email == email;
     }
 }
