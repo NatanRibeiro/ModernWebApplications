@@ -12,6 +12,6 @@ namespace ModernWebStore.Domain.Services
         Product Get(int id);
         Product Create(CreateProductCommand command);
         Product UpdateBasicInformation(UpdateProductInfoCommand command);
-        Product Delete(DeleteProductCommand comnand);
+        Product Delete(DeleteProductCommand command);
     }
 }

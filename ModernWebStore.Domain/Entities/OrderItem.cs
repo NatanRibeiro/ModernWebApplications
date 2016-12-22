@@ -14,6 +14,11 @@ namespace ModernWebStore.Domain.Entities
         public int OrderId { get; private set; }
         public Order Order { get; private set; }
 
+        public OrderItem()
+        {
+
+        }
+
         public OrderItem(int quantity, decimal price)
         {
             this.Quantity = quantity;
