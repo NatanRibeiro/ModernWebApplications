@@ -10,6 +10,11 @@ namespace ModernWebStore.Domain.Entities
         public string  Password { get; private set; }
         public bool IsAdmin { get; private set; }
 
+        protected User()
+        {
+
+        }
+
         public User(string email, string password, bool isAdmin)
         {
             this.Email = email;

@@ -1,9 +1,0 @@
-D:\Dev\ModernWebStore\ModernWebStore.Domain.Tests\bin\Debug\ModernWebStore.Domain.Tests.dll
-D:\Dev\ModernWebStore\ModernWebStore.Domain.Tests\bin\Debug\ModernWebStore.Domain.Tests.pdb
-D:\Dev\ModernWebStore\ModernWebStore.Domain.Tests\bin\Debug\ModernWebStore.Domain.dll
-D:\Dev\ModernWebStore\ModernWebStore.Domain.Tests\bin\Debug\ModernWebStore.SharedKernel.dll
-D:\Dev\ModernWebStore\ModernWebStore.Domain.Tests\bin\Debug\ModernWebStore.Domain.pdb
-D:\Dev\ModernWebStore\ModernWebStore.Domain.Tests\bin\Debug\ModernWebStore.SharedKernel.pdb
-D:\Dev\ModernWebStore\ModernWebStore.Domain.Tests\obj\Debug\ModernWebStore.Domain.Tests.csprojResolveAssemblyReference.cache
-D:\Dev\ModernWebStore\ModernWebStore.Domain.Tests\obj\Debug\ModernWebStore.Domain.Tests.dll
-D:\Dev\ModernWebStore\ModernWebStore.Domain.Tests\obj\Debug\ModernWebStore.Domain.Tests.pdb
