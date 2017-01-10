@@ -2,9 +2,9 @@
 <html ng-app="mwa">
 <head>
     <title></title>
-	<meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
-    <meta name="description" content="Wellcome to Modern Web Store!"/>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="description" content="Wellcome to Modern Web Store!" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Modern Web Store - Administrative Setor</title>
 
@@ -15,6 +15,9 @@
 </head>
 <body>
     <div ng-include="'pages/shared/headbar.html'"></div>
+    <div class="container" ng-view>
+    </div>
+
     <script src="../../bower_components/jquery/dist/jquery.js"></script>
     <script src="../../bower_components/bootstrap/dist/js/tether.min.js"></script>
     <script src="../../bower_components/bootstrap/dist/js/bootstrap.js"></script>
@@ -22,8 +25,8 @@
     <script src="../../bower_components/angular/angular.js"></script>
     <script src="../../bower_components/angular-route/angular-route.js"></script>
 
-    <script>
-        angular.module('mwa', ['ngRoute']);
-    </script>
+    <script src="../../app/app.js"></script>
+    <script src="../../app/routes.js"></script>
+    <script src="../../app/controllers/home/home-controller.js"></script>
 </body>
 </html>
