@@ -225,6 +225,8 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="wwwroot\Admin\app\app.js" />
+    <Content Include="wwwroot\Admin\app\config.js" />
+    <Content Include="wwwroot\Admin\app\controllers\account\login-controller.js" />
     <Content Include="wwwroot\Admin\app\controllers\home\home-controller.js" />
     <Content Include="wwwroot\Admin\app\routes.js" />
     <Content Include="wwwroot\Admin\bower_components\angular-route\angular-route.js" />

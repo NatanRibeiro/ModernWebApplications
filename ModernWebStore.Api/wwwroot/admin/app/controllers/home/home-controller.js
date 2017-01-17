@@ -5,15 +5,13 @@
 
     HomeCtrl.$inject = [];
 
-    function HomeCtrl($scope) {
+    function HomeCtrl() {
         var vm = this;
-
-        vm.activate = activate;
 
         activate();
 
         function activate() {
 
         }
-    }
+    };
 })();
