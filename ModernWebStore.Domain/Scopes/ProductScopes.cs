@@ -42,5 +42,13 @@ namespace ModernWebStore.Domain.Scopes
                 AssertionConcern.AssertIsGreaterThan(price, 0, "The price should be grater than zero!")
             );
         }
+
+        public static bool UpdateImageScopeIsValid(this Product product, string image)
+        {
+            return AssertionConcern.IsValid
+            (
+                AssertionConcern.AssertNotNull(image, "The image is obrigatory!")
+            );
+        }
     }
 }

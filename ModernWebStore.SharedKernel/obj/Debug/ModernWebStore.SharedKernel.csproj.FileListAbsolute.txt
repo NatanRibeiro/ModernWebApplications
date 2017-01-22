@@ -2,4 +2,3 @@ D:\Dev\ModernWebStore\ModernWebStore.SharedKernel\bin\Debug\ModernWebStore.Share
 D:\Dev\ModernWebStore\ModernWebStore.SharedKernel\bin\Debug\ModernWebStore.SharedKernel.pdb
 D:\Dev\ModernWebStore\ModernWebStore.SharedKernel\obj\Debug\ModernWebStore.SharedKernel.dll
 D:\Dev\ModernWebStore\ModernWebStore.SharedKernel\obj\Debug\ModernWebStore.SharedKernel.pdb
-D:\Dev\ModernWebStore\ModernWebStore.SharedKernel\obj\Debug\ModernWebStore.SharedKernel.csprojResolveAssemblyReference.cache

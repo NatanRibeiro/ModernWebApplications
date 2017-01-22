@@ -11,17 +11,24 @@ namespace ModernWebStore.Domain.Entities
         public int QuantityOnHand { get; private set; }
         public int CategoryId { get; private set; }
         public Category Category { get; private set; }
+        public string Image { get; private set; }
 
-        public Product(string title, string description, decimal price, int quantityOnHand, int categoryId)
+        public Product()
+        {
+            
+        }
+
+        public Product(string title, string description, decimal price, int quantityOnHand, int categoryId, string image)
         {
             this.Title = title;
             this.Description = description;
             this.Price = price;
             this.QuantityOnHand = quantityOnHand;
             this.CategoryId = categoryId;
+            this.Image = image;
         }
 
-        public void UpdateInfo(string title, string description, int category)
+        public void UpdateInfo(string title, string description, int category, string image)
         {
             if (!this.UpdateInfoScopeIsValid(title, description, category))
                 return;
@@ -29,6 +36,7 @@ namespace ModernWebStore.Domain.Entities
             this.Title = title;
             this.Description = description;
             this.CategoryId = category;
+            this.Image = image;
         }
 
         public void UpdateQuantityOnHand(int amount)
@@ -46,6 +54,15 @@ namespace ModernWebStore.Domain.Entities
 
             this.Price = price;
         }
+
+        public void UpdateImage(string image)
+        {
+            if (!this.UpdateImageScopeIsValid(image))
+                return;
+
+            this.Image = image;
+        }
+
 
         public void Register()
         {

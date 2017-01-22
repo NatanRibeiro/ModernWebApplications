@@ -18,7 +18,7 @@ namespace ModernWebStore.ApplicationService
 
         public Product Create(CreateProductCommand command)
         {
-            var product = new Product(command.Title, command.Description, command.Price, command.QuantityOnHand, command.CategoryId);
+            var product = new Product(command.Title, command.Description, command.Price, command.QuantityOnHand, command.CategoryId, command.Image);
             product.Register();
             _repository.Create(product);
 
@@ -31,7 +31,7 @@ namespace ModernWebStore.ApplicationService
         public Product UpdateBasicInformation(UpdateProductInfoCommand command)
         {
             var product = _repository.Get(command.Id);
-            product.UpdateInfo(command.Title, command.Description, command.CategoryId);
+            product.UpdateInfo(command.Title, command.Description, command.CategoryId, command.Image);
             _repository.Update(product);
 
             if (Commit())

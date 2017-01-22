@@ -1,10 +1,10 @@
 ﻿using ModernWebStore.Domain.Entities;
 using ModernWebStore.Domain.Repositories;
-using ModernWebStore.Domain.Specs;
 using ModernWebStore.Infrastructure.Persistence.DataContext;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using ModernWebStore.Domain.Specs;
 
 namespace ModernWebStore.Infrastructure.Repositories
 {

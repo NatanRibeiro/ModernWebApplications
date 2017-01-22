@@ -7,6 +7,12 @@ namespace ModernWebStore.Domain.Entities
         public int Id { get; private set; }
         public string Title { get; private set; }
 
+        public Category()
+        {
+
+        }
+
+
         public Category(string title)
         {
             this.Title = title;

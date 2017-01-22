@@ -29,7 +29,7 @@
         }
 
         $rootScope.$on("$routeChangeStart", function(event, next, current) {
-            if ($rootScope.user == null) {
+            if ($rootScope.user === null) {
                 $location.path('/login');
             }
         });

@@ -6,13 +6,15 @@
         public string Title { get; set; }
         public string Description { get; set; }
         public int CategoryId { get; set; }
+        public string Image { get; set; }
 
-        public UpdateProductInfoCommand(int id, string title, string description, int categoryId)
+        public UpdateProductInfoCommand(int id, string title, string description, int categoryId, string image)
         {
             this.Id = id;
             this.Title = title;
             this.Description = description;
             this.CategoryId = categoryId;
+            this.Image = image;
         }
     }
 }

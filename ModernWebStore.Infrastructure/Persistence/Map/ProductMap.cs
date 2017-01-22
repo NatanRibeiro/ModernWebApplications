@@ -15,6 +15,7 @@ namespace ModernWebStore.Infrastructure.Persistence.Map
             Property(x => x.Price).IsRequired();
             Property(x => x.QuantityOnHand).IsRequired();
             Property(x => x.Title).IsRequired();
+            Property(x => x.Image);
         }
     }
 }

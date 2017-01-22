@@ -14,6 +14,12 @@ namespace ModernWebStore.Domain.Entities
         public int UserId { get; private set; }
         public User User { get; private set; }
         public EOrderStatus Status { get; private set; }
+
+        public Order()
+        {
+            
+        }
+
         public ICollection<OrderItem> OrderItems
         {
             get { return _orderItems; }

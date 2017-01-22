@@ -1,4 +1,5 @@
-﻿using ModernWebStore.Domain.Commands.ProductCommands;
+﻿using System.Linq;
+using ModernWebStore.Domain.Commands.ProductCommands;
 using ModernWebStore.Domain.Services;
 using System.Net;
 using System.Net.Http;
@@ -40,16 +41,25 @@ namespace ModernWebStore.Api.Controllers
             return CreateResponse(HttpStatusCode.OK, products);
         }
 
+        [HttpGet]
+        [Route("api/products/{id}")]
+        public Task<HttpResponseMessage> Get(int id)
+        {
+            var products = _service.Get(id);
+            return CreateResponse(HttpStatusCode.OK, products);
+        }
+
         [HttpPost]
         [Route("api/products")]
-        public Task<HttpResponseMessage> Post([FromBody]dynamic body)
+        public Task<HttpResponseMessage> Post([FromBody] dynamic body)
         {
             var command = new CreateProductCommand(
-                title: (string)body.title,
-                categoryId: (int)body.category,
-                description: (string)body.description,
-                price: (decimal)body.price,
-                quantityOnHand: (int)body.quantityOnHand
+                title: (string) body.title,
+                categoryId: (int) body.category,
+                description: (string) body.description,
+                price: (decimal) body.price,
+                quantityOnHand: (int) body.quantityOnHand,
+                image: (string) body.image
             );
 
             var product = _service.Create(command);
@@ -57,18 +67,28 @@ namespace ModernWebStore.Api.Controllers
         }
 
         [HttpPut]
-        //[Authorize]
         [Route("api/products/{id:int:min(1)}")]
-        public Task<HttpResponseMessage> Put(int id, [FromBody]dynamic body)
+        public Task<HttpResponseMessage> Put(int id, [FromBody] dynamic body)
         {
             var command = new UpdateProductInfoCommand(
                 id: id,
-                title: (string)body.title,
-                categoryId: (int)body.category,
-                description: (string)body.description
+                title: (string) body.title,
+                categoryId: (int) body.category,
+                description: (string) body.description,
+                image: (string) body.image
             );
 
             var product = _service.UpdateBasicInformation(command);
+            return CreateResponse(HttpStatusCode.OK, product);
+        }
+
+        [HttpDelete]
+        [Route("api/products/{id}")]
+        public Task<HttpResponseMessage> Delete(int id)
+        {
+            var command = new DeleteProductCommand(id: id);
+
+            var product = _service.Delete(command);
             return CreateResponse(HttpStatusCode.OK, product);
         }
     }
