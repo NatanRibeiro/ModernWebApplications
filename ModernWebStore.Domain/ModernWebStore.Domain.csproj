@@ -77,7 +77,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ModernWebStore.SharedKernel\ModernWebStore.SharedKernel.csproj">
       <Project>{ed013128-cb94-4f72-9d51-3694283ac615}</Project>
-      <Name>ModernWebStore.SharedKernel</Name>
+      <Name>ZettaSell.SharedKernel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

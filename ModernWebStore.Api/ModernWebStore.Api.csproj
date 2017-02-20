@@ -7235,19 +7235,19 @@
   <ItemGroup>
     <ProjectReference Include="..\ModernWebStore.ApplicationService\ModernWebStore.ApplicationService.csproj">
       <Project>{52113f15-b314-4fd9-a13e-d4fbcabfbd8a}</Project>
-      <Name>ModernWebStore.ApplicationService</Name>
+      <Name>ZettaSell.ApplicationService</Name>
     </ProjectReference>
     <ProjectReference Include="..\ModernWebStore.CrossCutting\ModernWebStore.CrossCutting.csproj">
       <Project>{b5a5cc4c-1f10-4ebc-9e0c-4d304f5654ba}</Project>
-      <Name>ModernWebStore.CrossCutting</Name>
+      <Name>ZettaSell.CrossCutting</Name>
     </ProjectReference>
     <ProjectReference Include="..\ModernWebStore.Domain\ModernWebStore.Domain.csproj">
       <Project>{3e3103fe-3c9c-433b-b274-286e971397b8}</Project>
-      <Name>ModernWebStore.Domain</Name>
+      <Name>ZettaSell.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\ModernWebStore.SharedKernel\ModernWebStore.SharedKernel.csproj">
       <Project>{ed013128-cb94-4f72-9d51-3694283ac615}</Project>
-      <Name>ModernWebStore.SharedKernel</Name>
+      <Name>ZettaSell.SharedKernel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

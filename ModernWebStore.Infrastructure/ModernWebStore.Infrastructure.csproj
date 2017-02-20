@@ -83,7 +83,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ModernWebStore.Domain\ModernWebStore.Domain.csproj">
       <Project>{3e3103fe-3c9c-433b-b274-286e971397b8}</Project>
-      <Name>ModernWebStore.Domain</Name>
+      <Name>ZettaSell.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -50,15 +50,15 @@
   <ItemGroup>
     <ProjectReference Include="..\ModernWebStore.Domain\ModernWebStore.Domain.csproj">
       <Project>{3e3103fe-3c9c-433b-b274-286e971397b8}</Project>
-      <Name>ModernWebStore.Domain</Name>
+      <Name>ZettaSell.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\ModernWebStore.Infrastructure\ModernWebStore.Infrastructure.csproj">
       <Project>{a6123e48-74d8-4930-8640-5043da3d203d}</Project>
-      <Name>ModernWebStore.Infrastructure</Name>
+      <Name>ZettaSell.Infrastructure</Name>
     </ProjectReference>
     <ProjectReference Include="..\ModernWebStore.SharedKernel\ModernWebStore.SharedKernel.csproj">
       <Project>{ed013128-cb94-4f72-9d51-3694283ac615}</Project>
-      <Name>ModernWebStore.SharedKernel</Name>
+      <Name>ZettaSell.SharedKernel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

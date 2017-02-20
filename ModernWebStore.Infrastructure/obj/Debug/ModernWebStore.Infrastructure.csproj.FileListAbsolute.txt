@@ -13,7 +13,7 @@ D:\Dev\ModernWebStore\ModernWebStore.Infrastructure\bin\Debug\EntityFramework.Sq
 D:\Dev\ModernWebStore\ModernWebStore.Infrastructure\bin\Debug\EntityFramework.SqlServerCompact.xml
 D:\Dev\ModernWebStore\ModernWebStore.Infrastructure\bin\Debug\ModernWebStore.SharedKernel.pdb
 D:\Dev\ModernWebStore\ModernWebStore.Infrastructure\obj\Debug\ModernWebStore.Infrastructure.csprojResolveAssemblyReference.cache
-D:\Dev\ModernWebStore\ModernWebStore.Infrastructure\obj\Debug\ModernWebStore.Infrastructure.dll
-D:\Dev\ModernWebStore\ModernWebStore.Infrastructure\obj\Debug\ModernWebStore.Infrastructure.pdb
 D:\Dev\ModernWebStore\ModernWebStore.Infrastructure\obj\Debug\ModernWebStore.Infrastructure.Migrations.firstmigrationaddedimagecolumnatproducttable.resources
 D:\Dev\ModernWebStore\ModernWebStore.Infrastructure\obj\Debug\ModernWebStore.Infrastructure.csproj.GenerateResource.Cache
+D:\Dev\ModernWebStore\ModernWebStore.Infrastructure\obj\Debug\ModernWebStore.Infrastructure.dll
+D:\Dev\ModernWebStore\ModernWebStore.Infrastructure\obj\Debug\ModernWebStore.Infrastructure.pdb

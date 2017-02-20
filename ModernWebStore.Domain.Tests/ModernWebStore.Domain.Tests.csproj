@@ -60,11 +60,11 @@
   <ItemGroup>
     <ProjectReference Include="..\ModernWebStore.Domain\ModernWebStore.Domain.csproj">
       <Project>{3e3103fe-3c9c-433b-b274-286e971397b8}</Project>
-      <Name>ModernWebStore.Domain</Name>
+      <Name>ZettaSell.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\ModernWebStore.SharedKernel\ModernWebStore.SharedKernel.csproj">
       <Project>{ED013128-CB94-4F72-9D51-3694283AC615}</Project>
-      <Name>ModernWebStore.SharedKernel</Name>
+      <Name>ZettaSell.SharedKernel</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

@@ -17,6 +17,11 @@ D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Antlr3.Runtime.dll
 D:\Dev\ModernWebStore\ModernWebStore.Api\bin\EntityFramework.dll
 D:\Dev\ModernWebStore\ModernWebStore.Api\bin\EntityFramework.SqlServer.dll
 D:\Dev\ModernWebStore\ModernWebStore.Api\bin\EntityFramework.SqlServerCompact.dll
+D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.DependencyCollector.dll
+D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.WindowsServer.dll
 D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.Owin.Cors.dll
 D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.Owin.dll
@@ -56,6 +61,9 @@ D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Antlr3.Runtime.pdb
 D:\Dev\ModernWebStore\ModernWebStore.Api\bin\EntityFramework.xml
 D:\Dev\ModernWebStore\ModernWebStore.Api\bin\EntityFramework.SqlServer.xml
 D:\Dev\ModernWebStore\ModernWebStore.Api\bin\EntityFramework.SqlServerCompact.xml
+D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.DependencyCollector.xml
+D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.WindowsServer.xml
 D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.Owin.xml
 D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.Owin.Cors.xml
@@ -82,13 +90,3 @@ D:\Dev\ModernWebStore\ModernWebStore.Api\bin\ModernWebStore.Infrastructure.pdb
 D:\Dev\ModernWebStore\ModernWebStore.Api\obj\Debug\ModernWebStore.Api.csprojResolveAssemblyReference.cache
 D:\Dev\ModernWebStore\ModernWebStore.Api\obj\Debug\ModernWebStore.Api.dll
 D:\Dev\ModernWebStore\ModernWebStore.Api\obj\Debug\ModernWebStore.Api.pdb
-D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.Agent.Intercept.dll
-D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.DependencyCollector.dll
-D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.PerfCounterCollector.dll
-D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.ServerTelemetryChannel.dll
-D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.WindowsServer.dll
-D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.ApplicationInsights.dll
-D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.DependencyCollector.xml
-D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.ServerTelemetryChannel.xml
-D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.AI.WindowsServer.xml
-D:\Dev\ModernWebStore\ModernWebStore.Api\bin\Microsoft.ApplicationInsights.xml
